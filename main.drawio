@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="jqJlepWjlqbc60-k6YY3" name="Page-1">
-        <mxGraphModel dx="2850" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1674" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -69,7 +69,7 @@
                 <mxCell id="28" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="26">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="n2 &amp;lt; maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                <mxCell id="22" value="n2 &amp;gt; maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
                     <mxGeometry x="472.5" y="490" width="115" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="27">
@@ -102,7 +102,6 @@
                         <Array as="points">
                             <mxPoint x="480" y="780"/>
                             <mxPoint x="329" y="780"/>
-                            <mxPoint x="230" y="810"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -118,7 +117,7 @@
                 <mxCell id="49" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="46">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="n1 != minnum&lt;br&gt;and maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                <mxCell id="36" value="n1 != minnum&lt;br&gt;and n1 != maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
                     <mxGeometry x="250" y="820" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="40">
@@ -127,7 +126,7 @@
                 <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="47">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="n2 != minnum&lt;br&gt;and maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                <mxCell id="37" value="n2 != minnum&lt;br&gt;and n2 != maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
                     <mxGeometry x="250" y="930" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="41">
@@ -136,7 +135,7 @@
                 <mxCell id="51" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="48">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="m3 != minnum&lt;br&gt;and maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                <mxCell id="40" value="n3 != minnum&lt;br&gt;and&amp;nbsp; n3 != maxnum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
                     <mxGeometry x="250" y="1040" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="print: minnum, other, maxnum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
@@ -164,10 +163,10 @@
                 <mxCell id="54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
                     <mxGeometry x="210" y="810" width="20" height="390" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="&lt;h1&gt;Min algorithim&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;This portionn of the code serves to find the minimum number by comparing two values at the same time.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;The minnum value is any number less than 1.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;n2 = min if n2 &amp;lt; min else min.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;n3 = min if n3 &amp;lt; min else min.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;Next&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                <mxCell id="55" value="&lt;h1&gt;&lt;font color=&quot;#ffffff&quot;&gt;Min algorithim&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;This portionn of the code serves to find the minimum number by comparing two values at the same time.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;The minnum value is any number less than 1.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;n2 = min if n2 &amp;lt; min else min.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;n3 = min if n3 &amp;lt; min else min.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;Next&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="-80" y="30" width="220" height="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#00FFFF;fillColor=#bac8d3;strokeColor=#23445d;" edge="1" parent="1">
+                <mxCell id="57" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#00FFFF;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="170" y="180" as="sourcePoint"/>
                         <mxPoint x="240" y="180" as="targetPoint"/>
@@ -179,10 +178,10 @@
                 <mxCell id="62" value="&lt;h1&gt;Max algorithim&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;This portionn of the code serves to find the minimum number by comparing two values at the same time.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;n2 = max if n2 &amp;gt; max else max.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;n3 = max if n3 &amp;gt; max else max.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#00ffff&quot;&gt;Next&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;ol style=&quot;color: rgb(240, 240, 240);&quot;&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
                     <mxGeometry x="50" y="440" width="220" height="245" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="&lt;h1&gt;Other algorithim&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 255, 255);&quot;&gt;In this part of the program we that for any values that don't align with max or min are set to &quot;other&quot;.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
-                    <mxGeometry x="-150" y="920" width="220" height="120" as="geometry"/>
+                <mxCell id="65" value="&lt;h1&gt;Other algorithim&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 255, 255);&quot;&gt;In this part of the program we that for any values that don't align with max or min are set to &quot;other&quot;.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="920" width="220" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#00FFFF;fillColor=#bac8d3;strokeColor=#23445d;" edge="1" parent="1">
+                <mxCell id="68" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#00FFFF;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="110" y="1010" as="sourcePoint"/>
                         <mxPoint x="190" y="1010" as="targetPoint"/>
